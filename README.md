@@ -6,18 +6,19 @@ Built as part of a client project, it integrates deep learning models (CNNs and 
 
 ## 📁 Project Structure
 Yoga Pose Estimation/
-│
-├── data/ # 107 Yoga Pose folders with class-wise images
-├── keypoints/ # Numpy (.npy) MoveNet keypoint data
+├── data/                          # 107 Yoga Pose folders with class-wise images
+├── keypoints/                    # Numpy (.npy) MoveNet keypoint data
 ├── logs/
-│ ├── train/ # Training logs for TensorBoard
-│ └── validation/
+│   ├── train/                    # Training logs for TensorBoard
+│   └── validation/
 ├── Models used in the website/
-│ ├── yoga_pose_cnn_model.h5
-│ ├── pose_classification_model.h5
-│ └── pose_classification_model_with_keypoints.h5
-├── yolov5s.pt # (Optional) YOLOv5 model file for object detection
-├── Code.ipynb # Main notebook
+│   ├── yoga_pose_cnn_model.h5
+│   ├── pose_classification_model.h5
+│   └── pose_classification_model_with_keypoints.h5
+├── yolov5s.pt                    # (Optional) YOLOv5 model file for object detection
+├── ADSP32023_Assignment#2Final.ipynb  # Main notebook
+└── Untitled document.pdf         # Project report
+
 
 
 
