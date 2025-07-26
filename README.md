@@ -12,23 +12,19 @@ This project was developed as part of a client solution and integrates CNN-based
 
 ```plaintext
 Yoga Pose Estimation/
-├── data/                          # 107 yoga pose folders with class-wise images
-├── keypoints/                     # Numpy (.npy) MoveNet keypoint data
-├── logs/
-│   ├── train/                     # TensorBoard training logs
-│   └── validation/
-├── Models used in the website/
-│   ├── yoga_pose_cnn_model.h5
-│   ├── pose_classification_model.h5
-│   └── pose_classification_model_with_keypoints.h5
-├── yolov5s.pt                     # (Optional) YOLOv5 model for object detection
-├── Code.ipynb  # Main notebook
+├── Code.ipynb                                # Main notebook with model training and evaluation
+├── README.md                                 # Project documentation
+├── keypoints.zip                             # Compressed folder of MoveNet keypoint .npy files
+├── logs.zip                                  # TensorBoard logs (train & validation)
+├── pose_classification_model.h5              # Balanced CNN model
+├── pose_classification_model_with_keypoints.h5  # Keypoint-based lightweight model
+├── yolov5s.pt                                # (Optional) YOLOv5 model for pose region detection
 
 ````
 
 ---
 
-## 🧠 Models Implemented
+## Models Implemented
 
 ### 🔹 1. CNN Model
 
